@@ -7,7 +7,7 @@ import { usePermissStore } from './store/permiss';
 import 'element-plus/dist/index.css';
 import './assets/css/icon.css';
 
-const app = createApp(App);
+const app = createApp(App);//实例化vue.创建vue应用
 app.use(createPinia());
 app.use(router);
 
