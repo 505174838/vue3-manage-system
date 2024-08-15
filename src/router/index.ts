@@ -7,7 +7,7 @@ import 'nprogress/nprogress.css';
 const routes: RouteRecordRaw[] = [
     {
         path: '/',
-        redirect: '/dashboard',
+        redirect: '/dashboard',//重定向到/dashboard路由映射的组件
     },
     {
         path: '/',

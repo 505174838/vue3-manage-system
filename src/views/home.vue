@@ -13,9 +13,12 @@
                     </transition>
                 </router-view>
             </div>
+
         </div>
+
     </div>
 </template>
+
 <script setup lang="ts">
 import { useSidebarStore } from '@/store/sidebar';
 import { useTabsStore } from '@/store/tabs';

@@ -9,7 +9,7 @@ import './assets/css/icon.css';
 
 const app = createApp(App);//实例化vue.创建vue应用
 app.use(createPinia());
-app.use(router);
+app.use(router);//将路由器实例注册为应用程序的插件
 
 // 注册elementplus图标
 for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
